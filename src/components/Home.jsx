@@ -15,10 +15,10 @@ const Home = () => {
     }
 
     return (
-        <div className="container">
-            <h1>Tech Solution to the Rescue</h1>
-            <p>We believe 21st century problems, constraints and issues need 21st century solutions. Tech solution is precisely that. We believe tech solutions can not only revolutionize operational procedures can even add new dimensions that impact strategic planning for sustained growth.</p>
-            <p>An essential ingredient for any organizational survival is being online. If your presence is not online then not much you can do to modernize your business, to carve a niche for your business and to sustain the very existence of your organization. Once you are online, you can connect to the globe and can think the world as your oyster. We have the following technologies to put you conspicuously online and to tap the functionalities of online technologies for your custom operations. Here is a gist of our online technologies:</p>
+        <div className='container bg-light'>
+        <h1>Tech Solution to the Rescue</h1>
+        <p>We believe 21st century problems, constraints and issues need 21st century solutions. Tech solution is precisely that. We believe tech solutions can not only revolutionize operational procedures can even add new dimensions that impact strategic planning for sustained growth.</p>
+        <p>An essential ingredient for any organizational survival is being online. If your presence is not online then not much you can do to modernize your business, to carve a niche for your business and to sustain the very existence of your organization. Once you are online, you can connect to the globe and can think the world as your oyster. We have the following technologies to put you conspicuously online and to tap the functionalities of online technologies for your custom operations. Here is a gist of our online technologies:</p>
             <hr/>
             <ul>
             <h2>Basic Technologies Applied Regularly:</h2>
@@ -28,8 +28,8 @@ const Home = () => {
                 })}
             </ul>
             <button onClick={addItem}>AddItem</button>
-        </div>
-    )
-}
+         </div>
+        )
+      }
 
 export default Home;
